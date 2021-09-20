@@ -3,13 +3,27 @@
     xmlns:mvc="sap.ui.core.mvc"
     displayBlock="true"
     xmlns="sap.m"
->
+    xmlns:core="sap.ui.core" 
+    
+    >
 	<Shell id="shell">
 		<App id="app">
 			<pages>
 				<Page id="page" title="{i18n>title}">
 					<content> 
-                    <Text text="Hola Mundo"></Text>
+                        <Panel headerText="{i18n>selectionScreeen}">
+                            <Label id="labelShipName" labelFor="shipName" text="{i18n>shipName}" class="sapUiSmallMargin"></Label>
+                            <Input id="shipName" width="200px" class="sapUiSmallMarginEnd"></Input>
+                            <Label id="labelCountry" text="{i18n>country}" class="sapUiSmallMargin"></Label>
+                            <Select id="slCountry" selectedKey="{selectionScreen>/CountryKey}" forceSelection="false" 
+                                    items="{selectionScreen>/Countries}">
+                                
+                                <!-- Agregamos la linea  xmlns:core="sap.ui.core" para usar el componente "item"-->
+                                <items>
+                                    <core:Item key="{selectionScreen>key}" text="{selectionScreen>text}" /> 
+                                </items>
+                            </Select>        
+                        </Panel>    
                     </content>
 				</Page>
 			</pages>
