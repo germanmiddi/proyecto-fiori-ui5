@@ -1,25 +1,6 @@
-## Application Details
-|               |
-| ------------- |
-|**Generation Date and Time**<br>Thu Sep 16 2021 19:38:40 GMT+0000 (Coordinated Universal Time)|
-|**App Generator**<br>@sap/generator-fiori|
-|**App Generator Version**<br>1.3.3|
-|**Generation Platform**<br>SAP Business Application Studio|
-|**Floorplan Used**<br>simple|
-|**Service Type**<br>None|
-|**Service URL**<br>N/A
-|**Module Name**<br>invoices|
-|**Application Title**<br>Invoices List|
-|**Namespace**<br>logaligroup|
-|**UI5 Theme**<br>sap_fiori_3|
-|**UI5 Version**<br>Latest|
-|**Enable Code Assist Libraries**<br>False|
-|**Add Eslint configuration**<br>False|
-|**Enable Telemetry**<br>True|
-
 ## invoices
 
-Invoices List
+Invoices List with Filter
 
 ### Starting the generated app
 
