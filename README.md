@@ -1,5 +1,7 @@
 ## Desarrollo de Aplicaciones FIORI SAPUI5 con SAP BAS
 ## Invoices - Application Details
+
+Invoices List with Filter
 |               |
 | ------------- |
 |**Generation Date and Time**<br>Thu Sep 16 2021 19:38:40 GMT+0000 (Coordinated Universal Time)|
@@ -18,9 +20,8 @@
 |**Add Eslint configuration**<br>False|
 |**Enable Telemetry**<br>True|
 
-## invoices
+=======
 
-Invoices List
 
 ### Starting the generated app
 
